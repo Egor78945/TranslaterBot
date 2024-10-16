@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  translater-bot:
+    container_name: translater-bot
+    build: .
+    ports:
+      - "8080:8080"
