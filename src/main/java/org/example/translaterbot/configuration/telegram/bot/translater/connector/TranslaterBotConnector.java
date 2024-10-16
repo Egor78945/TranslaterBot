@@ -1,4 +1,4 @@
-package org.example.translaterbot.configuration.telegram.bot.translater.initializer;
+package org.example.translaterbot.configuration.telegram.bot.translater.connector;
 
 import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;

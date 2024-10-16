@@ -4,9 +4,9 @@ services:
     container_name: translater-bot
     build: .
     environment:
-      - BOT_TOKEN
-      - BOT_NAME
-      - YANDEX_CATALOG_ID
-      - YANDEX_OAUTH_TOKEN
+      - BOT_TOKEN=${BOT_TOKEN}
+      - BOT_NAME=${BOT_NAME}
+      - YANDEX_CATALOG_ID=${YANDEX_CATALOG_ID}
+      - YANDEX_OAUTH_TOKEN=${YANDEX_OAUTH_TOKEN}
     ports:
       - "8080:8080"

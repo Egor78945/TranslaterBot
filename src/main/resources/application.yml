@@ -24,3 +24,6 @@ yandex:
     id: ${YANDEX_CATALOG_ID}
   oauth:
     token: ${YANDEX_OAUTH_TOKEN}
+
+server:
+  port: 8080
